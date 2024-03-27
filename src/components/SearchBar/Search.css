@@ -1,0 +1,64 @@
+/* src/components/Search.css */
+.search-container {
+    width: 100%;
+  }
+  
+  .search-inner-container {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .search-input {
+    padding: 0.5rem 2.5rem;
+    border-radius: 20px;
+    border: 2px solid #007bff; /* Bootstrap primary blue */
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .search-icon,
+  .close-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+  }
+  
+  .search-icon {
+    left: 1rem;
+  }
+  
+  .close-icon {
+    right: 1rem;
+  }
+
+  /* src/components/Search.css */
+.input-group {
+    border-radius: 20px; /* Adjust for desired curvature */
+    overflow: hidden; /* Ensures inner elements conform to the group's border radius */
+  }
+  
+  .input-group .form-control {
+    border-right: none; /* Makes the border seamless between input and buttons */
+  }
+  
+  .input-group .btn {
+    border-left: none; /* Makes the border seamless between buttons and input */
+  }
+  
+  /* Additional Bootstrap button styling can be added if needed */
+  
+.spinner-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding-left: 1rem;
+  z-index: 10;
+}
+
+.search-field.loading {
+  padding-left: 2.5rem; /* Adjust the padding to not overlap with the spinner */
+}
+
+/* Rest of the CSS */

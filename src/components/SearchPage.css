@@ -1,0 +1,108 @@
+/* Set the overall container and content alignment */
+.container {
+    text-align: center;
+  }
+  
+  /* Style the stock search title */
+  .text-center.mb-3 {
+    font-size: 1.5rem;
+    color: #333; /* Or any color as per your design */
+    margin-bottom: 20px; /* Adjust as per your design */
+  }
+
+  .img-fluid{
+    height: 100px;
+  }
+
+
+  .customTabs {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .customTab {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /* Stock symbol, company name, and exchange information */
+  .stock-info h1, 
+  .stock-info h2, 
+  .stock-info p {
+    margin: 0; /* Removes default margin */
+    padding: 5px 0; /* Adjust padding to match design */
+  }
+  
+  /* Company logo */
+  .company-logo {
+    max-width: 150px; /* Adjust to fit your design */
+    margin: 20px auto; /* Centers the logo with margin on top and bottom */
+    height: 100px;
+  }
+  
+  /* Market status text */
+  .market-status {
+    font-size: 0.9rem; /* Adjust the size as needed */
+    font-weight: bold;
+  }
+  
+  /* If market is open, text will be green; if closed, it will be red */
+  .market-status.text-success {
+    color: green;
+  }
+  
+  .market-status.text-danger {
+    color: red;
+  }
+  
+  /* Price info, align text to right for the price box */
+  .price-info {
+    text-align: right;
+    padding-right: 20px; /* Adjust as per your design */
+  }
+  
+  .price-info h3 {
+    font-size: 2rem; /* Size of the stock price */
+    margin: 0;
+  }
+  
+  /* Adjusting color for price up and down indicators */
+  .price-info .text-success {
+    color: #28a745; /* Green color for price up */
+  }
+  
+  .price-info .text-danger {
+    color: #dc3545; /* Red color for price down */
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: #007bff; /* Default primary button color */
+    /* Other button styling as needed */
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Default danger button color */
+    /* Other button styling as needed */
+  }
+  
+  /* Tabs styling */
+  /* You may need to override MUI styles with more specific selectors or !important */
+  .mui-tabs {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .mui-tab {
+    /* Your tab styling here */
+  }
+  
+  /* Style for active tab indicator */
+  .mui-tab-indicator {
+    background-color: #007bff;
+  }
+  
+  /* Ensure your JSX uses these class names correctly */
+  

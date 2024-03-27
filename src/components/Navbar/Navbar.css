@@ -1,0 +1,7 @@
+/* src/components/Navbar.css */
+.bg-primary {
+    background-color: #2a4d69 !important; /* This sets the background color to the blue shade provided. */
+  }
+  
+  /* Use Bootstrap's text-white class in the component to apply white text color */
+  
